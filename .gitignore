@@ -26,3 +26,4 @@ Thumbs.db
 # Credenciais (modifique conforme necessário)
 application.properties
 application.yml
+clinica_vetlove/vetlove/src/main/java/com/clinica/controller/usuarioController.java
