@@ -1,0 +1,28 @@
+# Arquivos e pastas da IDE
+.idea/
+*.iml
+*.classpath
+*.project
+.settings/
+
+# Arquivos e pastas de compilação
+/bin/
+/out/
+build/
+target/
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Dependências geradas por Maven/Gradle
+.mvn/
+.gradle/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Credenciais (modifique conforme necessário)
+application.properties
+application.yml
