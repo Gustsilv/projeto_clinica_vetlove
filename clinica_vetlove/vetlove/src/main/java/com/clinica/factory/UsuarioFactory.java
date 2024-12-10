@@ -8,11 +8,17 @@ public class UsuarioFactory {
     public static EntityManagerFactory emf;
 
     public static EntityManager configFactoryUsuario(){
-        emf = Persistence.createEntityManagerFactory("VetLove"); //criar uma class Persistence
+        emf = Persistence.createEntityManagerFactory("Clinica-VetLove"); //criar um arquivo Persistence(Feito)
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
         return em;
+
     }
 
-    //public static void
+    public static void saveAndClose(EntityManager em){
+        em.getTransaction().commit();
+
+        em.close();
+        emf.close();
+    }
 }
